@@ -24,8 +24,11 @@ studentów oraz doborze w zespoły projektowe
 
 ## Autorzy
 ### Krzysztof Tabeau - aplikacja webowa
+Vue.js z kontrolerem stanu
 ### Lidia Sługocka - aplikacja mobilna
+Java ze wsparciem android studio
 ### Piotr Lewandowski - aplikacja serwerowa
+.NET 5 z PostgreSQL
 
 
 
