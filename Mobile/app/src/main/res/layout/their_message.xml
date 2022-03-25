@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/barlow_regular"
+        android:textSize="@dimen/small_text_height"
+        android:id="@+id/messageDate"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="60dp"
+        android:orientation="horizontal"
+        android:onClick="MessageClicked"
+        android:paddingTop="@dimen/normal_divider_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/their_message"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:fontFamily="@font/barlow_regular"
+            android:textSize="@dimen/normal_text_height"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/messageText"
+            android:text="This is a message of other student" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5dp"
+            android:fontFamily="@font/barlow_regular"
+            android:textSize="@dimen/small_text_height"
+            android:visibility="invisible"
+            android:id="@+id/messageTime"/>
+
+    </LinearLayout>
+
+</LinearLayout>

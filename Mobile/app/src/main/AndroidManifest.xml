@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.UsosFix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/usosfix_icon_transparent"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/usosfix_icon_transparent"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.app.UsosFix.ConversationsActivity" />
+        <activity android:name="com.app.UsosFix.MessengerActivity" />
+        <activity android:name="com.app.UsosFix.TeamsActivity" />
+        <activity android:name="com.app.UsosFix.SubjectScheduleActivity" />
+        <activity android:name="com.app.UsosFix.ExchangeActivity" />
+        <activity android:name="com.app.UsosFix.UserGroupActivity" />
+        <activity android:name="com.app.UsosFix.ScheduleActivity" />
+        <activity android:name="com.app.UsosFix.UserPanelActivity" />
+        <activity android:name="com.app.UsosFix.InputPinActivity" />
+        <activity android:name="com.app.UsosFix.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

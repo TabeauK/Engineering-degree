@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_schedule"
+    android:layout_below="@+id/scheduleTabsLayout"
+    android:id="@+id/scheduleHorizontalLinesLayout">
+
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+    <View android:background="#aaa" android:layout_width = "fill_parent" android:layout_height="@dimen/normal_divider_height" android:layout_marginTop="15dp"/>
+
+</LinearLayout>

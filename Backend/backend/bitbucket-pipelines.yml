@@ -1,0 +1,13 @@
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and run tests
+            services:
+              - docker
+            script:
+              - docker build -f ./UsosFix/Dockerfile --target test -t testtag .
+              - docker run -i --rm --name backend-tests -d testtag
+              - mkdir ../test-results
+              - docker cp backend-tests:/.TestResults/. ./test-results/
+              - docker kill backend-tests

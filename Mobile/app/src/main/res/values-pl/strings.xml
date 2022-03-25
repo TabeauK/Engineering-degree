@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UsosFix</string>
+    <string name="sign_in">Zaloguj się</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="user_panel">Panel użytkownika</string>
+    <string name="schedule">Mój plan</string>
+    <string name="message_box">Wiadomości</string>
+    <string name="my_teams">Moje zespoły</string>
+    <string name="my_exchanges">Moje wymiany</string>
+    <string name="log_out">Wyloguj</string>
+
+    <string name="monday_shortcut">PN</string>
+    <string name="tuesday_shortcut">WT</string>
+    <string name="wednesday_shortcut">ŚR</string>
+    <string name="thursday_shortcut">CZ</string>
+    <string name="friday_shortcut">PT</string>
+    <string name="saturday_shortcut">SO</string>
+    <string name="sunday_shortcut">ND</string>
+
+    <string name="confirm_PIN">Potwierdź</string>
+    <string name="write_PIN">Wpisz PIN</string>
+
+    <string name="user_name">Imię:</string>
+    <string name="user_surname">Nazwisko:</string>
+    <string name="user_index_number">Numer albumu:</string>
+    <string name="username">Nazwa użytkownika:</string>
+    <string name="id">ID: </string>
+    <string name="user_email">E-mail:</string>
+    <string name="RODO_agreement">Ujawnij twoje imię i nazwisko</string> //
+    <string name="dark_mode_question">Włącz tryb ciemny</string>
+    <string name="english">Angielski</string>
+    <string name="polish">Polski</string>
+
+    <string name="mail_to_dean_office">Wyślij dane do Dziekanatu</string>
+
+    <string name="subject">Przedmiot</string>
+    <string name="classes_type">Rodzaj zajeć</string>
+    <string name="groupNumber">Numer grupy</string>
+    <string name="instructor">Prowadzący</string>
+    <string name="term">Termin</string>
+    <string name="place">Miejsce</string>
+    <string name="dates">Daty spotkań</string>
+    <string name="students_limit">Limit studentów</string>
+    <string name="students_number">Liczba studentów</string>
+    <string name="participants">Uczestnicy</string>
+
+    <string name="AM7">7:00</string>
+    <string name="AM8">8:00</string>
+    <string name="AM9">9:00</string>
+    <string name="AM10">10:00</string>
+    <string name="AM11">11:00</string>
+    <string name="PM12">12:00</string>
+    <string name="PM1">13:00</string>
+    <string name="PM2">14:00</string>
+    <string name="PM3">15:00</string>
+    <string name="PM4">16:00</string>
+    <string name="PM5">17:00</string>
+    <string name="PM6">18:00</string>
+    <string name="PM7">19:00</string>
+    <string name="PM8">20:00</string>
+    <string name="PM9">21:00</string>
+    <string name="PM10">22:00</string>
+
+    <string name="lectures">Wykłady</string>
+    <string name="exercises">Ćwiczenia</string>
+    <string name="laboratories">Laboratoria</string>
+    <string name="projects">Projekty</string>
+
+    <string name="WYK">WYK</string>
+    <string name="CWI">CWI</string>
+    <string name="LAB">LAB</string>
+    <string name="PRO">PRO</string>
+
+    <string name="choose_application_language">Wybierz język aplikacji</string>
+    <string name="user_info">Informacje o użytkowniku</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Wiadomości</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="leader_list">Lista starostów</string>
+    <string name="add_leader">Dodaj starostę</string>
+    <string name="index">Numer albumu</string>
+    <string name="add_admin">Dodaj admina</string>
+    <string name="remove">Usuń</string>
+    <string name="admin_list">Lista adminów</string>
+    <string name="new_username">Nowa nazwa użytkownika</string>
+    <string name="change_username">Zmień</string>
+    <string name="admin_panel">Panel admina</string>
+    <string name="leader_panel">Panel starosty</string>
+    <string name="leave">Opuść</string>
+    <string name="AuthorizedToken">AuthorizedToken</string>
+    <string name="add_dependency_relation">Powiąż&#10;z</string>
+    <string name="add_excluding_relation">Wyklucz&#10;z</string>
+    <string name="group">Grupa</string>
+    <string name="add_relations">Dodaj relacje</string>
+    <string name="in_exclusion_relation_with">W relacji wykluczenia z</string>
+    <string name="in_binding_relation_with">W relacji powiązania z</string>
+    <string name="monday">poniedziałek</string>
+    <string name="tuesday">wtorek</string>
+    <string name="wednesday">środa</string>
+    <string name="thursday">czwartek</string>
+    <string name="friday">piątek</string>
+    <string name="saturday">sobota</string>
+    <string name="sunday">niedziela</string>
+    <string name="subjects">Przedmioty</string>
+    <string name="you">Ty</string>
+    <string name="join">Dołącz</string>
+    <string name="nr">Nr</string>
+    <string name="dayOfAWeek">Dzień tygodnia</string>
+    <string name="date">Data</string>
+    <string name="start">Start</string>
+    <string name="end">Koniec</string>
+    <string name="invite">Zaproś</string>
+    <string name="group_nr">grupa</string>
+    <string name="write_a_message">Napisz wiadomość</string>
+    <string name="pending">Oczekujące</string>
+    <string name="accept">Zaakceptuj</string>
+    <string name="reject">Odrzuć</string>
+    <string name="student_number_or_username">Numer albumu lub pseudonim</string>
+    <string name="invitation">Zaproszenie</string>
+    <string name="usos_based">z USOSa</string>
+    <string name="exchanges_based">po wymianach</string>
+    <string name="too_short_username">Zbyt krótki pseudonim!</string>
+    <string name="base_url">https://usos-fix.herokuapp.com</string>
+    <string name="stop_joining">Przestań dołączać</string>
+    <string name="invited">Zaproszony</string>
+    <string name="start_new_semester">Rozpocznij nowy semestr</string>
+    <string name="cancel">Anuluj</string>
+    <string name="calculate_exchanges">Policz wymiany</string>
+
+    <string name="exchanges_error">Wystąpił błąd podczas pobierania wymian. Spróbuj ponownie później…</string>
+    <string name="exchanges_display_error">Wystąpił błąd podczas wyświetlania wymian. Spróbuj ponownie później…</string>
+    <string name="relations_error">Wystąpił błąd podczas pobierania relacji. Spróbuj ponownie później…</string>
+    <string name="user_info_error">Wystąpił błąd podczas pobierania informacji o użytkowniku. Spróbuj ponownie później…</string>
+    <string name="user_info_display_error">Wystąpił błąd podczas wyświetlania informacji o użytkowniku. Spróbuj ponownie później…</string>
+    <string name="log_out_error">Wystąpił błąd podczas wylogowywania. Spróbuj ponownie później…</string>
+    <string name="teams_error">Wystąpił błąd podczas pobierania zespołów. Spróbuj ponownie później…</string>
+    <string name="conversations_error">Wystąpił błąd podczas pobierania konwersacji. Spróbuj ponownie później…</string>
+    <string name="conversations_display_error">Wystąpił błąd podczas wyświetlania konwersacji. Spróbuj ponownie później…</string>
+    <string name="invite_to_chat_error">Wystąpił błąd podczas zapraszania do czatu. Spróbuj ponownie później…</string>
+    <string name="user_search_error">Wystąpił błąd podczas wyszukiwania użytkowników. Spróbuj ponownie później…</string>
+    <string name="cancel_relation_error">Wystąpił błąd podczas anulowania relacji. Spróbuj ponownie później…</string>
+    <string name="add_relation_error">Wystąpił błąd podczas dodawania relacji. Spróbuj ponownie później…</string>
+    <string name="authorization_error">Wystąpił błąd podczas autoryzacji. Spróbuj ponownie później…</string>
+    <string name="token_error">Coś poszło nie tak! Twój token jest pusty. Spróbuj ponownie później…</string>
+    <string name="messages_error">Wystąpił błąd podczas pobierania wiadomości. Spróbuj ponownie później…</string>
+    <string name="messages_display_error">Wystąpił błąd podczas wyświetlania wiadomości. Spróbuj ponownie później…</string>
+    <string name="accept_chat_error">Wystąpił błąd podczas akceptowania zaproszenia do czatu. Spróbuj ponownie później…</string>
+    <string name="reject_chat_error">Wystąpił błąd podczas odrzucania zaproszenia do czatu. Spróbuj ponownie później…</string>
+    <string name="schedule_error">Wystąpił błąd podczas pobierania planu zajęć. Spróbuj ponownie później…</string>
+    <string name="schedule_display_error">Wystąpił błąd podczas wyświetlania planu zajęć. Spróbuj ponownie później…</string>
+    <string name="subject_groups_error">Wystąpił błąd podczas pobierania grup zajęciowych. Spróbuj ponownie później…</string>
+    <string name="subject_groups_display_error">Wystąpił błąd podczas wyświetlania grup zajęciowych. Spróbuj ponownie później…</string>
+    <string name="accept_team_error">Wystąpił błąd podczas akceptowania zespołu. Spróbuj ponownie później…</string>
+    <string name="reject_team_error">Wystąpił błąd podczas odrzucania zespołu. Spróbuj ponownie później…</string>
+    <string name="remove_team_inv_error">Wystąpił błąd podczas usuwania zaproszenia do zespołu. Spróbuj ponownie później…</string>
+    <string name="remove_user_from_team_error">Wystąpił błąd podczas usuwania użytkownika z zespołu. Spróbuj ponownie później…</string>
+    <string name="group_info_error">Wystąpił błąd podczas pobierania grupy zajęciowej. Spróbuj ponownie później…</string>
+    <string name="inv_to_team_error">Wystąpił błąd podczas zapraszania do zespołu. Spróbuj ponownie później…</string>
+    <string name="add_exchange_error">Wystąpił błąd podczas dodawania wymiany. Spróbuj ponownie później…</string>
+    <string name="remove_exchange_error">Wystąpił błąd podczas usuwania wymiany. Spróbuj ponownie później…</string>
+    <string name="exchanges_info_error">Wystąpił błąd podczas pobierania informacji o wymianach. Spróbuj ponownie później…</string>
+    <string name="exchanges_info_display_error">Wystąpił błąd podczas wyświetlania informacji o wymianach. Spróbuj ponownie później…</string>
+    <string name="admins_leaders_error">Wystąpił błąd podczas pobierania starostów i adminów. Spróbuj ponownie później…</string>
+    <string name="admins_leaders_display_error">Wystąpił błąd podczas wyświetlania starostów i adminów. Spróbuj ponownie później…</string>
+    <string name="remove_role_error">Wystąpił błąd podczas usuwania roli użytkownika. Spróbuj ponownie później…</string>
+    <string name="add_leader_error">Wystąpił błąd podczas dodawania starosty. Spróbuj ponownie później…</string>
+    <string name="add_admin_error">Wystąpił błąd podczas dodawania admina. Spróbuj ponownie później…</string>
+    <string name="change_username_error">Wystąpił błąd podczas zmiany nazwy użytkownika. Spróbuj ponownie później…</string>
+    <string name="reveal_yourself_error">Wystąpił błąd podczas ujawniania Cię. Spróbuj ponownie później…</string>
+    <string name="conceal_yourself_error">Wystąpił błąd podczas ukrywania Cię. Spróbuj ponownie później…</string>
+    <string name="change_language_error">Wystąpił błąd podczas zmieniania języka. Spróbuj ponownie później…</string>
+    <string name="index_error">Wpisz numer albumu studenta!</string>
+    <string name="change_term_error">Wystąpił błąd podczas rozpoczynania nowego semestru. Spróbuj ponownie później…</string>
+    <string name="calculate_exchanges_error">Wystąpił błąd podczas obliczania wymian. Spróbuj ponownie później…</string>
+    <string name="send_email_error">Wystąpił błąd podczas wysyłania maila do Dziekanatu. Spróbuj ponownie później…</string>
+    <string name="no_chosen_subjects_error">Nie wybrałeś żadnego przedmiotu!</string>
+    <string name="group_id_error">Nieprawidłowe ID grupy!</string>
+    <string name="subject_id_error">Nieprawidłowe ID przedmiotu!</string>
+
+    <string name="cancel_relation_success">Relacja anulowana z powodzeniem!</string>
+    <string name="add_relation_success">Relacja dodana z powodzeniem!</string>
+    <string name="accept_chat_success">Zaproszenie do czatu zaakceptowane z powodzeniem!</string>
+    <string name="reject_chat_success">Zaproszenie do czatu odrzucone z powodzeniem!</string>
+    <string name="accept_team_success">Zaproszenie do zespołu zaakceptowane z powodzeniem!</string>
+    <string name="reject_team_success">Zaproszenie do zespołu odrzucone z powodzeniem!</string>
+    <string name="inv_to_chat_success">Użytkownik zaproszony do czatu z powodzeniem!</string>
+    <string name="remove_team_inv_success">Zaproszenie do zespołu usunięte z powodzeniem!</string>
+    <string name="remove_user_from_team_success">Użytkownik usunięty z zespołu z powodzeniem!</string>
+    <string name="inv_to_team_success">Użytkownik zaproszony do zespołu z powodzeniem!</string>
+    <string name="add_exchange_success">Wymiana dodana z powodzeniem!</string>
+    <string name="remove_exchange_success">Wymiana usunięta z powodzeniem!</string>
+    <string name="remove_role_success">Rola usunięta z powodzeniem!</string>
+    <string name="add_leader_success">Starosta dodany z powodzeniem!</string>
+    <string name="add_admin_success">Admin dodany z powodzeniem!</string>
+    <string name="change_username_success">Nazwa użytkownika zmieniona z powodzeniem!</string>
+    <string name="reveal_yourself_success">Ujawniłeś się z powodzeniem!</string>
+    <string name="conceal_yourself_success">Ukryłeś się z powodzeniem!</string>
+    <string name="change_language_success">Język zmieniony z powodzeniem!</string>
+    <string name="change_term_success">Semestr rozpoczęty z powodzeniem!</string>
+    <string name="no_message_content_error">Wiadomość nie może być pusta!</string>
+    <string name="calculate_exchanges_success">Wymiany obliczone z powodzeniem!</string>
+    <string name="send_email_success">Email wysłany z powodzeniem!</string>
+
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="add_leader_question">Jesteś pewien, że chcesz nadać uprawnienia starosty użytkownikowi o numerze albumu: %1$s?</string>
+    <string name="add_admin_question">Jesteś pewien, że chcesz nadać uprawnienia starosty użytkownikowi o numerze albumu: %1$s?</string>
+    <string name="remove_leader_question">Jesteś pewien, że chcesz odebrać uprawnienia starosty użytkownikowi o numerze albumu: %1$s?</string>
+    <string name="remove_admin_question">Jesteś pewien, że chcesz odebrać uprawnienia admina użytkownikowi o numerze albumu: %1$s?</string>
+    <string name="new_semester_question">Jesteś pewien, że chcesz rozpocząć nowy semestr? To wyczyści dane o planie zajęć, wymianach i zespołach.</string>
+
+</resources>

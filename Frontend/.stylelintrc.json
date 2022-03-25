@@ -1,0 +1,17 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "color-no-invalid-hex": true,
+        "block-no-empty": null,
+        "comment-empty-line-before": [
+          "always",
+          {
+            "ignore": ["stylelint-commands", "after-comment"]
+          }
+        ],
+        "max-empty-lines": 2,
+        "unit-allowed-list": ["em", "rem", "%", "px", "deg", "s", "vh", "ms"],
+        "indentation": 2,
+        "number-leading-zero": null
+    }
+}

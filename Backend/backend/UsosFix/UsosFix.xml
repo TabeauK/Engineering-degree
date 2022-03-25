@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UsosFix</name>
+    </assembly>
+    <members>
+        <member name="M:UsosFix.Controllers.AccountController.SetUsername(System.String,System.String)">
+            <summary>
+            Sets the username for the specified user
+            </summary>
+            <param name="token">Token of the user that wants to change the username</param>
+            <param name="username">The new username</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AccountController.SetLanguage(System.String,System.String)">
+            <summary>
+            Sets the preferred language for the user
+            </summary>
+            <param name="token">Token of the user</param>
+            <param name="languageString">The preferred language, either Polish or English</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AccountController.SetVisibility(System.String,System.Boolean)">
+            <summary>
+            Sets the preference for visibility in our application
+            </summary>
+            <param name="token">Token for the user</param>
+            <param name="visible">Whether the user should be visible or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AccountController.SetDarkMode(System.String,System.Boolean)">
+            <summary>
+            Sets the preference for dark mode in our application
+            </summary>
+            <param name="token">Token for the user</param>
+            <param name="darkMode">Whether the user wants to use dark mode or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AccountController.WhoAmI(System.String)">
+            <summary>
+            Returns the basic details about the user assigned to the given token. Valid only for authorized access tokens.
+            </summary>
+            <param name="token">The oauth token to analyze</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AccountController.UserSearch(System.String,System.String)">
+            <summary>
+            Returns the first 10 users matching the requested prefix with either their student number or their username
+            </summary>
+            <param name="token">Token for the user asking</param>
+            <param name="prefix">The prefix to check</param>
+            <returns>An overview of the users data</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AdminController.EndExchangeWindow(System.String)">
+            <summary>
+                Ends exchange window, currently a no-op
+            </summary>
+            <param name="token">Token for the admin performing the action</param>
+            <returns>200 Success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AdminController.SendEmail(System.String,System.Int32)">
+            <summary>
+                Sends an email with new groups
+            </summary>
+            <param name="token">Token for the admin or leader performing the action</param>
+            <param name="subjectId">Id of the subject that should be mentioned in the email</param>
+            <returns>200 Success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AdminController.SendBatchEmail(System.String,System.Int32[])">
+            <summary>
+                Sends an email with new groups
+            </summary>
+            <param name="token">Token for the admin or leader performing the action</param>
+            <param name="subjectIds">Ids of the subjects that should be mentioned in the email</param>
+            <returns>200 Success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AdminController.ChangeToNextTerm(System.String)">
+            <summary>
+                Changes the current term to the next one
+            </summary>
+            <param name="token">Token for the admin performing the action</param>
+            <returns>200 Success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.AdminController.ChangeTerm(System.String,System.Int32,UsosFix.Models.SemesterSeason)">
+            <summary>
+                Changes the current term to the requested one
+            </summary>
+            <param name="token">Token for the admin performing the action</param>
+            <param name="year">Year of the new semester.</param>
+            <param name="season">Season of the new semester.</param>
+            <returns>200 Success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.AddExchange(System.String,System.Int32)">
+            <summary>
+            Adds an exchange to a given group
+            </summary>
+            <param name="token">Token for the user asking for the exchange</param>
+            <param name="groupToId">Group that the user wants to be in</param>
+            <returns>200 if the exchange was successfully added</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.DeleteExchange(System.String,System.Int32)">
+            <summary>
+            Deletes an exchange
+            </summary>
+            <param name="token">Token for the user asking for the exchange</param>
+            <param name="exchangeId">The id of the exchange to be deleted</param>
+            <returns>200 if the exchange was successfully deleted</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.DeleteExchangeByGroupId(System.String,System.Int32)">
+            <summary>
+            Deletes an exchange to the given group
+            </summary>
+            <param name="token">Token for the user asking for the exchange</param>
+            <param name="groupId">The id of the target group to be deleted</param>
+            <returns>200 if the exchange was successfully deleted</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.Exchanges(System.String)">
+            <summary>
+            Lists all exchanges for a given user
+            </summary>
+            <param name="token">Token for the user in question</param>
+            <returns>The list of all users exchanges</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.EndExchangeWindow(System.String)">
+            <summary>
+            Stop all exchanges
+            </summary>
+            <param name="token">Token for an admin</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.RealizeExchangesInSubjects(System.String,System.Int32[])">
+            <summary>
+            Stop and try to execute all exchanges for the given subjects
+            </summary>
+            <param name="token">Token for an admin or leader</param>
+            <param name="subjectIds">The ids for subjects that should be processed</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.ExchangesSummary(System.String)">
+            <summary>
+            Get a summary for all exchanges
+            </summary>
+            <param name="token">Token for an admin or a leader</param>
+            <returns>The summary for all exchanges</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.ExchangesSummaryBySubject(System.String,System.Int32)">
+            <summary>
+            Get a summary for all exchanges within a given subject
+            </summary>
+            <param name="token">Token for an admin or a leader</param>
+            <param name="subjectId">The id of the subject</param>
+            <returns>The summary for all exchanges within the given subject</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.AddRelation(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Adds a relation between the two given exchanges
+            </summary>
+            <param name="token">Token for the user asking for the exchange</param>
+            <param name="relationType"></param>
+            <param name="exchange1Id">Exchange one</param>
+            <param name="exchange2Id">Exchange two</param>
+            <returns>200 if the relation was successfully added</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.DeleteRelation(System.String,System.Int32)">
+            <summary>
+            Deletes a relation
+            </summary>
+            <param name="token">Token for the user asking for the exchange</param>
+            <param name="relationId">The id of the relation to be deleted</param>
+            <returns>200 if the relation was successfully deleted</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.ExchangesController.Relations(System.String)">
+            <summary>
+            All relations for the user
+            </summary>
+            <param name="token">User's Oauth token</param>
+            <returns>List of relations</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.MessagesSince(System.String,System.Int32,System.Nullable{System.DateTime})">
+            <summary>
+            Returns a conversation with all messages after a certain date
+            </summary>
+            <param name="token">Token for the user asking</param>
+            <param name="conversationId">Id of the conversation to return</param>
+            <param name="date">The date, if null returns the last 50 messages</param>
+            <returns>The conversation with the requested messages</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.ConversationsSince(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Returns all conversations after a certain date
+            </summary>
+            <param name="token">Token for the user asking</param>
+            <param name="date">The date, if null returns the last 50 conversations</param>
+            <returns>A list of conversations, each with a last message</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.SendMessage(System.String,System.Int32,System.String)">
+            <summary>
+            Sends a message
+            </summary>
+            <param name="token">Token for the sending user</param>
+            <param name="conversationId">Id of the conversation</param>
+            <param name="content">Content of the message</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.InviteToChat(System.String,System.String)">
+            <summary>
+            Invites a user to a new conversation
+            </summary>
+            <param name="token">Token for the inviting user</param>
+            <param name="userToInvite">Student number of the user that should be invited</param>
+            <returns>Id of the new conversation.</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.InviteToChatById(System.String,System.Int32)">
+            <summary>
+            Invites a user to a new conversation
+            </summary>
+            <param name="token">Token for the inviting user</param>
+            <param name="userToInviteId">Id of the user that should be invited</param>
+            <returns>Id of the new conversation.</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.AcceptChat(System.String,System.Int32)">
+            <summary>
+            Accepts an invitation to chat
+            </summary>
+            <param name="token">Token for the accepting user</param>
+            <param name="conversationId">Id of the conversation</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.MessagesController.RejectChat(System.String,System.Int32)">
+            <summary>
+            Rejects an invitation to chat
+            </summary>
+            <param name="token">Id for the user</param>
+            <param name="conversationId">Id of the conversation</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.RolesController.SetRoleByStudentNumber(System.String,System.String,System.String)">
+            <summary>
+            Changes the role of a user with the given student number to the one specified.
+            </summary>
+            <param name="token">Oauth token of an admin account</param>
+            <param name="studentNumber">Student number for the account to change (index number)</param>
+            <param name="roleString">One of: User, Leader, Admin</param>
+            <returns>200 if successful, 400 otherwise</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.RolesController.SetRoleById(System.String,System.Int32,System.String)">
+            <summary>
+            Changes the role of a user with the given id to the one specified.
+            </summary>
+            <param name="token">Oauth token of an admin account</param>
+            <param name="id">Id of the account to change</param>
+            <param name="roleString">One of: User, Leader, Admin</param>
+            <returns>200 if successful, 400 otherwise</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.RolesController.AdminsAndLeaders(System.String)">
+            <summary>
+            Returns the list of all admins and leaders.
+            </summary>
+            <param name="token">Oauth token of an admin account</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.InviteUser(System.String,System.Int32,System.Int32)">
+            <summary>
+                Invites a user to our team from a certain subject
+            </summary>
+            <param name="token">Token for the inviting user</param>
+            <param name="invitedId">The ID of the user we want to invite</param>
+            <param name="subjectId">ID of the relevant subject</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.DeleteInvitation(System.String,System.Int32)">
+            <summary>
+                Deletes an existing invitation
+            </summary>
+            <param name="token">Token for the user that is either inviting or the invited in regards to this invitation</param>
+            <param name="invitationId">The invitation ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.GetInvitations(System.String)">
+            <summary>
+                Gets all the invitations received by the given user
+            </summary>
+            <param name="token">The oauth token for the user</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.DeleteUserFromTeam(System.String,System.Int32,System.Int32)">
+            <summary>
+                Removes a user from the given team. If the resulting team would be empty or contain a single user and no
+                invitations
+            </summary>
+            <param name="token">Token for the user that wants to perform the action</param>
+            <param name="teamId">Id of the team in question</param>
+            <param name="userId">Id of the user to be deleted</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.DeleteTeam(System.String,System.Int32)">
+            <summary>
+                Removes a whole team at once.
+            </summary>
+            <param name="token">Token for the user that wants to perform the action</param>
+            <param name="teamId">Id of the team in question</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.AcceptInvitation(System.String,System.Int32)">
+            <summary>
+                Accepts an invitation and adds a user to the relevant team.
+            </summary>
+            <param name="token">Token for the user</param>
+            <param name="invitationId">Id of the invitation</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.MyTeams(System.String)">
+            <summary>
+                Returns a list of all teams the user is part of.
+            </summary>
+            <param name="token">Token for the user</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TeamsController.SubjectTeamlessUserSearch(System.String,System.String,System.Int32)">
+            <summary>
+                Returns the first 10 users matching the requested prefix with their username or exactly with their student number.
+                Filters the user for only those that are not in a group in the given subject
+            </summary>
+            <param name="token">Token for the user asking</param>
+            <param name="prefix">The prefix to check</param>
+            <param name="subjectId">Id for the subject</param>
+            <returns>An overview of the users data</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TimetableController.GroupInfo(System.String,System.Int32)">
+            <summary>
+                Get the details for a certain group of a user
+            </summary>
+            <param name="token">Token associated with the user</param>
+            <param name="groupId">The id of the group</param>
+            <returns>200 with group's details on success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TimetableController.UserGroups(System.String)">
+            <summary>
+                Get the details for all groups of a user
+            </summary>
+            <param name="token">Token associated with the user</param>
+            <returns>200 with groups' details on success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TimetableController.UserGroupsAfterExchanges(System.String)">
+            <summary>
+                Get the details for all groups of a user, taking all exchanges into account
+            </summary>
+            <param name="token">Token associated with the user</param>
+            <returns>200 with groups' details on success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TimetableController.SubjectGroups(System.String,System.Int32)">
+            <summary>
+                Get the details for all groups of a subject
+            </summary>
+            <param name="token">Token associated with the user</param>
+            <param name="subjectId">Id of the subject to fetch</param>
+            <returns>200 with groups' details on success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.TimetableController.GroupMeetings(System.String,System.Int32)">
+            <summary>
+                Get the meetings for one of the groups
+            </summary>
+            <param name="token">Token associated with the user</param>
+            <param name="groupId">Id of the group</param>
+            <returns>200 with groups' details on success</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.UsosAuthorizationController.OauthToken(System.String)">
+            <summary>
+                Get an unauthorized OAuth token from USOS API
+            </summary>
+            <param name="env">The callback to be configured on the token</param>
+            <returns>The new token</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.UsosAuthorizationController.AccessToken(System.String,System.String)">
+            <summary>
+            Returns an authorized OAuth token, when given a pin and an unauthorized token.
+            </summary>
+            <param name="pin">The pin that the user received</param>
+            <param name="token">The previous, unauthorized token</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsosFix.Controllers.UsosAuthorizationController.IsTokenValid(System.String)">
+            <summary>
+            Checks whether the given token can be used for requests by sending a simple request to the USOS API.
+            </summary>
+            <param name="token">The token that should be checked</param>
+            <returns>Whether the token is valid</returns>
+        </member>
+        <member name="M:UsosFix.Controllers.UsosAuthorizationController.LogOff(System.String)">
+            <summary>
+            Logs off the user associated with the given token.
+            </summary>
+            <param name="token">The OAuth token</param>
+            <returns>200</returns>
+        </member>
+        <member name="M:UsosFix.UsosApi.OAuth.Utilities.UrlEncode(System.String)">
+            <summary>
+            This is a different Url Encode implementation since the default .NET one outputs the percent encoding in lower case.
+            While this is not a problem with the percent encoding spec, it is used in upper case throughout OAuth
+            </summary>
+            <param name="value">The value to Url encode</param>
+            <returns>Returns a Url encoded string</returns>
+        </member>
+    </members>
+</doc>

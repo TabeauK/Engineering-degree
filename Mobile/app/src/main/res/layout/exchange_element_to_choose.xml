@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/exchange_to_choose_background"
+    android:padding="12dp"
+    android:layout_marginHorizontal="5dp"
+    android:id="@+id/exchangeToChooseElementLayout">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/big_text_height"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/exchangeToChoose_subjectName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/big_text_height"
+                android:id="@+id/exchangeToChoose_classType"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/white_element_content_background"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group_in_exchange_background">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/baseline_people_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/normal_text_height"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/barlow_bold"
+                    android:id="@+id/groupFromInfoTextView"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_arrow_right_alt_black_18dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group_in_exchange_background">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/baseline_people_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/normal_text_height"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/barlow_bold"
+                    android:id="@+id/groupToInfoTextView"/>
+
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/colored_element_background"
+    android:padding="7dp"
+    android:id="@+id/exchangeElementLayout">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/big_text_height"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/exchange_subjectName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/big_text_height"
+                android:id="@+id/exchange_classType"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:background="@drawable/white_element_content_background"
+        android:stretchColumns="*"
+        android:id="@+id/exchangeElementTable">
+
+        <TableRow>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group_in_exchange_background">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/baseline_people_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/normal_text_height"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/barlow_bold"
+                    android:id="@+id/groupFromInfoTextView"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_arrow_right_alt_black_18dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group_in_exchange_background">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/baseline_people_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/normal_text_height"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/barlow_bold"
+                    android:id="@+id/groupToInfoTextView"/>
+
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/normal_text_height"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/colorWhite"
+                        android:fontFamily="@font/barlow_bold"
+                        android:textAllCaps="false"
+                        android:text="@string/add_dependency_relation"
+                        android:height="40dp"
+                        android:minHeight="0dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/addDependencyRelationButton"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/normal_text_height"
+                        android:background="@drawable/red_button_background"
+                        android:textColor="@color/colorWhite"
+                        android:fontFamily="@font/barlow_bold"
+                        android:textAllCaps="false"
+                        android:text="@string/add_excluding_relation"
+                        android:height="40dp"
+                        android:minHeight="0dp"
+                        android:paddingHorizontal="10dp"
+                        android:id="@+id/addExcludingRelationButton"/>
+
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="@string/in_binding_relation_with"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/barlow_bold"
+        android:textSize="@dimen/normal_text_height"
+        android:visibility="gone"
+        android:id="@+id/inBindingRelationWithTextView"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_element_content_background"
+        android:divider="@color/colorPrimary"
+        android:showDividers="middle"
+        android:dividerPadding="@dimen/normal_divider_height"
+        android:stretchColumns="*"
+        android:id="@+id/bindingRelationsTable" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="@string/in_exclusion_relation_with"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/barlow_bold"
+        android:textSize="@dimen/normal_text_height"
+        android:visibility="gone"
+        android:id="@+id/inExclusionRelationWithTextView"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_element_content_background"
+        android:divider="@color/colorPrimary"
+        android:showDividers="middle"
+        android:dividerPadding="@dimen/normal_divider_height"
+        android:stretchColumns="*"
+        android:id="@+id/exclusionRelationsTable"/>
+
+</LinearLayout>

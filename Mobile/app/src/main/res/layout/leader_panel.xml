@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/colored_element_background"
+    android:id="@+id/leaderPanelRelativeLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leader_panel"
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/barlow_bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/big_text_height"
+        android:id="@+id/leaderPanelTextView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leaderPanelTextView"
+        android:background="@drawable/white_element_content_background" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:stretchColumns="1, 2, 3"
+            android:dividerPadding="@dimen/normal_divider_height"
+            android:divider="#aaa"
+            android:showDividers="middle"
+            android:id="@+id/subjectsTable">
+            <!-- columnsNumber = 4 -->
+
+            <TableRow android:gravity="center">
+
+                <CheckBox
+                    android:text="@string/subjects"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/normal_text_height"
+                    android:fontFamily="@font/barlow_bold"
+                    android:layout_width="200dp"
+                    android:onClick="SubjectsCheckboxOnClickListener"
+                    android:id="@+id/subjectsCheckbox"/>
+
+                <ImageView android:src="@drawable/outline_file_upload_black_18dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <ImageView android:src="@drawable/baseline_done_black_18dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <ImageView android:src="@drawable/baseline_close_black_18dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subjectsTable"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="@string/calculate_exchanges"
+            android:textSize="@dimen/normal_text_height"
+            android:fontFamily="@font/barlow_bold"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:paddingHorizontal="20dp"
+            android:minHeight="0dp"
+            android:height="@dimen/button_height"
+            android:onClick="CalculateExchanges"
+            android:id="@+id/countButton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countButton"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="@string/mail_to_dean_office"
+            android:textSize="@dimen/normal_text_height"
+            android:fontFamily="@font/barlow_bold"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:minHeight="0dp"
+            android:height="@dimen/button_height"
+            android:onClick="SendToDeansOffice"
+            android:id="@+id/sendButton"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/subjectScheduleActivity"
+    tools:context=".SubjectScheduleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/subjectScheduleLinearLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:paddingVertical="10dp"
+                android:fontFamily="@font/barlow_bold"
+                android:textStyle="bold"
+                android:textSize="@dimen/big_text_height"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/subjectSchedule_subjectNameTextView" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_divider_height"
+                android:background="@color/colorPrimary"
+                android:paddingHorizontal="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:background="@drawable/colored_element_background"
+                android:id="@+id/lecturesElement">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/barlow_medium"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/big_text_height"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/lectures"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/lecturesList" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:background="@drawable/blue_element_background"
+                android:id="@+id/tutorialsElement">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/barlow_medium"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/big_text_height"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/exercises"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/tutorialsList" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:background="@drawable/colored_element_background"
+                android:id="@+id/laboratoriesElement">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/barlow_medium"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/big_text_height"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/laboratories"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/laboratoriesList" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:background="@drawable/blue_element_background"
+                android:id="@+id/projectsElement">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/barlow_medium"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/big_text_height"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/projects"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/projectsList" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

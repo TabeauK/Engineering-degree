@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessengerActivity"
+    android:id="@+id/messengerActivityLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editTextAndButtonToSendMessage"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="40dp"
+        android:id="@+id/messagesScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/messagesLinearLayout" />
+
+    </ScrollView>
+
+    <include layout="@layout/invitation_to_chat"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@id/editTextAndButtonToSendMessage"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/invitationWindow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/editTextAndButtonToSendMessage">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="@string/write_a_message"
+            android:inputType="text"
+            android:textSize="@dimen/normal_text_height"
+            android:id="@+id/messageEditText"
+            android:paddingHorizontal="10dp"/>
+
+        <ImageButton
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/baseline_send_black_18dp"
+            android:onClick="SendMessage"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

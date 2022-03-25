@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f88b4</color> <!--#021aee--> <!--Luna-->
+    <color name="colorPrimaryDark">#0e7499</color>
+    <color name="colorAccent">#d9d9d9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#00aa00</color>
+    <color name="colorRed">#db593f</color> <!--Luna-->
+    <color name="colorBlack">#000000</color>
+    <color name="darkGray">#616161</color>
+    <color name="colorGray">#888888</color>
+    <color name="colorYellow">#fdce1e</color> <!--Luna-->
+
+    <color name="buttonColor">#00abb1</color> <!--Luna-->
+    <color name="lighterPrimaryColor">#bcd7e4</color> <!--Luna-->
+    <color name="backgroundColor">#e3eef4</color> <!--Luna-->
+
+    <color name="transparent">#ffffffff</color>
+
+    <color name="lectureColor">#273562</color>
+    <color name="darkerLectureColor">#18213d</color>
+    <color name="tutorialColor">#644885</color>
+    <color name="darkerTutorialColor">#412f57</color>
+    <color name="laboratoryColor">#bc3369</color>
+    <color name="darkerLaboratoryColor">#87264c</color>
+    <color name="projectColor">#136d75</color>
+    <color name="darkerProjectColor">#0d4c52</color>
+</resources>

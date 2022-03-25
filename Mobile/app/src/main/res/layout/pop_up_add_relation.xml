@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="15dp"
+    android:background="@drawable/pop_up_background"
+    android:id="@+id/exchangesToChooseLinearLayout">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/exchangesToChooseScrollableLinearLayout">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0, 1"
+                android:paddingVertical="10dp">
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/button_height"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/colorWhite"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/barlow_bold"
+                        android:textSize="@dimen/normal_text_height"
+                        android:text="@string/add_relations"
+                        android:layout_marginTop="10dp"
+                        android:minHeight="0dp"
+                        android:height="@dimen/button_height"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/addRelationsButton" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/button_height"
+                        android:background="@drawable/red_button_background"
+                        android:textColor="@color/colorWhite"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/barlow_bold"
+                        android:textSize="@dimen/normal_text_height"
+                        android:text="@string/cancel"
+                        android:layout_marginTop="10dp"
+                        android:minHeight="0dp"
+                        android:height="@dimen/button_height"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/addRelations_cancelButton"/>
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

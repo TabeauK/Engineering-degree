@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/user_panel"
+        app:showAsAction="never"
+        android:id="@+id/menu_user_panel" />
+
+    <item
+        android:title="@string/schedule"
+        app:showAsAction="never"
+        android:id="@+id/menu_schedule" />
+
+    <item
+        android:title="@string/message_box"
+        app:showAsAction="never"
+        android:id="@+id/menu_message_box" />
+
+    <item
+        android:title="@string/my_teams"
+        app:showAsAction="never"
+        android:id="@+id/menu_my_teams"/>
+
+    <item android:title="@string/my_exchanges"
+        app:showAsAction="never"
+        android:id="@+id/menu_my_exchanges" />
+
+    <item android:title="@string/log_out"
+        app:showAsAction="never"
+        android:id="@+id/menu_log_out" />
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Widget.AppTheme.MyView" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@color/colorGray</item>
+        <item name="exampleColor">@color/buttonColor</item>
+    </style>
+</resources>

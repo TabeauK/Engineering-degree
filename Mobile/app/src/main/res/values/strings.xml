@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">UsosFix</string>
+    <string name="sign_in">Log in</string>
+
+    <string name="settings">Settings</string>
+    <string name="user_panel">User panel</string>
+    <string name="schedule">My timetable</string>
+    <string name="message_box">Message box</string>
+    <string name="my_exchanges">My exchanges</string>
+    <string name="log_out">Log out</string>
+
+    <string name="monday_shortcut">MO</string>
+    <string name="tuesday_shortcut">TU</string>
+    <string name="wednesday_shortcut">WE</string>
+    <string name="thursday_shortcut">TH</string>
+    <string name="friday_shortcut">FR</string>
+    <string name="saturday_shortcut">SA</string>
+    <string name="sunday_shortcut">SU</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="confirm_PIN">Confirm</string>
+    <string name="write_PIN">Write your PIN</string>
+
+    <string name="user_name">First name: </string>
+    <string name="user_surname">Last name: </string>
+    <string name="user_index_number">Student number: </string>
+    <string name="username">Username: </string>
+    <string name="id">ID: </string>
+    <string name="user_email">E-mail: </string>
+    <string name="RODO_agreement">Reveal yourself</string>
+    <string name="dark_mode_question">Turn on the dark mode</string>
+    <string name="english">English</string>
+    <string name="polish">Polish</string>
+
+    <string name="mail_to_dean_office">Send data to dean\'s office</string>
+
+    <string name="subject">Subject</string>
+    <string name="classes_type">Classes type</string>
+    <string name="groupNumber">Group number</string>
+    <string name="instructor">Instructor</string>
+    <string name="term">Term</string>
+    <string name="place">Place</string>
+    <string name="dates">Meeting dates</string>
+    <string name="students_limit">Students limit</string>
+    <string name="students_number">Students number</string>
+
+    <string name="AM7">7am</string>
+    <string name="AM8">8am</string>
+    <string name="AM9">9am</string>
+    <string name="AM10">10am</string>
+    <string name="AM11">11am</string>
+    <string name="PM12">12pm</string>
+    <string name="PM1">1pm</string>
+    <string name="PM2">2pm</string>
+    <string name="PM3">3pm</string>
+    <string name="PM4">4pm</string>
+    <string name="PM5">5pm</string>
+    <string name="PM6">6pm</string>
+    <string name="PM7">7pm</string>
+    <string name="PM8">8pm</string>
+    <string name="PM9">9pm</string>
+    <string name="PM10">10pm</string>
+
+    <string name="lectures">Lectures</string>
+    <string name="exercises">Tutorials</string>
+    <string name="laboratories">Laboratories</string>
+    <string name="projects">Projects</string>
+
+    <string name="WYK">LEC</string>
+    <string name="CWI">TUT</string>
+    <string name="LAB">LAB</string>
+    <string name="PRO">PRO</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_exchange_relations">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="participants">Participants</string>
+    <string name="choose_application_language">Choose application language</string>
+    <string name="user_info">User info</string>
+    <string name="leader_list">Leader list</string>
+    <string name="add_leader">Add leader</string>
+    <string name="index">Student number</string>
+    <string name="add_admin">Add admin</string>
+    <string name="remove">Remove</string>
+    <string name="admin_list">Admin list</string>
+    <string name="new_username">New username</string>
+    <string name="change_username">Change</string>
+    <string name="admin_panel">Admin panel</string>
+    <string name="leader_panel">Leader panel</string>
+    <string name="leave">Leave</string>
+    <string name="AuthorizedToken">AuthorizedToken</string>
+    <string name="add_dependency_relation">Add&#10;binding</string>
+    <string name="add_excluding_relation">Add&#10;exclusion</string>
+    <string name="group">Group</string>
+    <string name="add_relations">Add relations</string>
+    <string name="in_exclusion_relation_with">In exclusion relation with</string>
+    <string name="in_binding_relation_with">In binding relation with</string>
+    <string name="my_teams">My teams</string>
+    <string name="subjects">Subjects</string>
+    <string name="you">You</string>
+    <string name="join">Join</string>
+    <string name="nr">No.</string>
+    <string name="dayOfAWeek">Day of a week</string>
+    <string name="date">Date</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="invite">Invite</string>
+    <string name="group_nr">group</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="pending">Pending</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="student_number_or_username">Student number or username</string>
+    <string name="invitation">Invitation</string>
+    <string name="usos_based">USOS-based</string>
+    <string name="exchanges_based">exchanges-based</string>
+    <string name="too_short_username">Too short username!</string>
+    <string name="base_url">https://usos-fix.herokuapp.com</string>
+    <string name="stop_joining">Stop joining</string>
+    <string name="invited">Invited</string>
+    <string name="start_new_semester">Start new semester</string>
+    <string name="cancel">Cancel</string>
+    <string name="calculate_exchanges">Calculate exchanges</string>
+
+    <string name="exchanges_error">An error occurred while getting exchanges. Try again later…</string>
+    <string name="exchanges_display_error">An error occurred while displaying exchanges. Try again later…</string>
+    <string name="relations_error">An error occurred while getting relations. Try again later…</string>
+    <string name="user_info_error">An error occurred while getting user information. Try again later…</string>
+    <string name="user_info_display_error">An error occurred while displaying user information. Try again later…</string>
+    <string name="log_out_error">An error occurred while logging off. Try again later…</string>
+    <string name="teams_error">An error occurred while getting teams. Try again later…</string>
+    <string name="conversations_error">An error occurred while getting conversations. Try again later…</string>
+    <string name="conversations_display_error">An error occurred while displaying conversations. Try again later…</string>
+    <string name="invite_to_chat_error">An error occurred while inviting to chat. Try again later…</string>
+    <string name="user_search_error">An error occurred while searching for users. Try again later…</string>
+    <string name="cancel_relation_error">An error occurred while canceling relation. Try again later…</string>
+    <string name="add_relation_error">An error occurred while adding relation. Try again later…</string>
+    <string name="authorization_error">An error occurred during authorization. Try again later…</string>
+    <string name="token_error">Something went wrong! Your token is empty. Try again later…</string>
+    <string name="messages_error">An error occurred while getting messages. Try again later…</string>
+    <string name="messages_display_error">An error occurred while displaying messages. Try again later…</string>
+    <string name="accept_chat_error">An error occurred while accepting chat invitation. Try again later…</string>
+    <string name="reject_chat_error">An error occurred while rejecting chat invitation. Try again later…</string>
+    <string name="schedule_error">An error occurred while getting timetable. Try again later…</string>
+    <string name="schedule_display_error">An error occurred while displaying timetable. Try again later…</string>
+    <string name="subject_groups_error">An error occurred while getting subject groups. Try again later…</string>
+    <string name="subject_groups_display_error">An error occurred while displaying subject groups. Try again later…</string>
+    <string name="accept_team_error">An error occurred while accepting team invitation. Try again later…</string>
+    <string name="reject_team_error">An error occurred while rejecting team invitation. Try again later…</string>
+    <string name="remove_team_inv_error">An error occurred while removing team invitation. Try again later…</string>
+    <string name="remove_user_from_team_error">An error occurred while removing user from team. Try again later…</string>
+    <string name="group_info_error">An error occurred while getting group information. Try again later…</string>
+    <string name="inv_to_team_error">An error occurred while inviting user to team. Try again later…</string>
+    <string name="add_exchange_error">An error occurred while adding exchange. Try again later…</string>
+    <string name="remove_exchange_error">An error occurred while removing exchange. Try again later…</string>
+    <string name="exchanges_info_error">An error occurred while getting exchanges info. Try again later…</string>
+    <string name="exchanges_info_display_error">An error occurred while displaying exchanges info. Try again later…</string>
+    <string name="admins_leaders_error">An error occurred while getting leaders and admins. Try again later…</string>
+    <string name="admins_leaders_display_error">An error occurred while displaying leaders and admins. Try again later…</string>
+    <string name="remove_role_error">An error occurred while removing user role. Try again later…</string>
+    <string name="add_leader_error">An error occurred while adding leader. Try again later…</string>
+    <string name="add_admin_error">An error occurred while adding admin. Try again later…</string>
+    <string name="change_username_error">An error occurred while changing username. Try again later…</string>
+    <string name="reveal_yourself_error">An error occurred while revealing you. Try again later…</string>
+    <string name="conceal_yourself_error">An error occurred while concealing you. Try again later…</string>
+    <string name="change_language_error">An error occurred while changing language. Try again later…</string>
+    <string name="index_error">Write correct student number!</string>
+    <string name="change_term_error">An error occurred while starting new semester. Try again later…</string>
+    <string name="no_message_content_error">Message cannot be empty!</string>
+    <string name="calculate_exchanges_error">An error occurred while calculating exchanges. Try again later…</string>
+    <string name="send_email_error">An error occurred while sending email to Dean\'s Office. Try again later…</string>
+    <string name="no_chosen_subjects_error">There is no chosen subject!</string>
+    <string name="group_id_error">Wrong group ID!</string>
+    <string name="subject_id_error">Wrong subject ID!</string>
+
+    <string name="cancel_relation_success">Relation canceled successfully!</string>
+    <string name="add_relation_success">Relation added successfully!</string>
+    <string name="accept_chat_success">Chat invitation accepted successfully!</string>
+    <string name="reject_chat_success">Chat invitation rejected successfully!</string>
+    <string name="accept_team_success">Team invitation accepted successfully!</string>
+    <string name="reject_team_success">Team invitation rejected successfully!</string>
+    <string name="remove_team_inv_success">Team invitation removed successfully!</string>
+    <string name="inv_to_chat_success">User invited to chat successfully!</string>
+    <string name="remove_user_from_team_success">User removed from team successfully!</string>
+    <string name="inv_to_team_success">User invited to team successfully!</string>
+    <string name="add_exchange_success">Exchange added successfully!</string>
+    <string name="remove_exchange_success">Exchange removed successfully!</string>
+    <string name="remove_role_success">Role removed successfully!</string>
+    <string name="add_leader_success">Leader added successfully!</string>
+    <string name="add_admin_success">Admin added successfully!</string>
+    <string name="change_username_success">Username changed successfully!</string>
+    <string name="reveal_yourself_success">You revealed yourself successfully!</string>
+    <string name="conceal_yourself_success">You concealed yourself successfully!</string>
+    <string name="change_language_success">Language changed successfully!</string>
+    <string name="change_term_success">Semester started successfully!</string>
+    <string name="calculate_exchanges_success">Exchanges calculated successfully!</string>
+    <string name="send_email_success">Email sent successfully!</string>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="add_leader_question">Are you sure you want to grant leader privileges to user with student number: %1$s?</string>
+    <string name="add_admin_question">Are you sure you want to grant admin privileges to user with student number: %1$s?</string>
+    <string name="remove_leader_question">Are you sure you want to take away leader privileges from user with student number: %1$s?</string>
+    <string name="remove_admin_question">Are you sure you want to take away admin privileges from user with student number: %1$s?</string>
+    <string name="new_semester_question">Are you sure you want to start new semester?\n It will clean all timetable, exchange and team data.</string>
+
+</resources>

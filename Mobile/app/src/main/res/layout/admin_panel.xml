@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/colored_element_background"
+    android:id="@+id/adminPanelLinearLayout">
+
+    <!-- panel admina -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/barlow_bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/big_text_height"
+        android:text="@string/admin_panel"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/white_element_content_background"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/table_layout_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="3dp"
+                android:background="@drawable/text_view_background"
+                android:textSize="@dimen/normal_text_height"
+                android:fontFamily="@font/barlow_semi_bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/leader_list"
+                android:id="@+id/representativeListLabel"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/leaderListTable"
+                android:stretchColumns="0"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="3dp"
+                android:divider="@color/colorPrimary"
+                android:dividerPadding="@dimen/normal_divider_height"
+                android:showDividers="middle"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/index"
+                android:fontFamily="@font/barlow_regular"
+                android:textSize="@dimen/normal_text_height"
+                android:layout_toStartOf="@+id/addLeaderButton"
+                android:id="@+id/addLeaderEditText"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="@string/add_leader"
+                android:fontFamily="@font/barlow_bold"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:paddingHorizontal="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/addLeaderEditText"
+                android:layout_marginStart="20dp"
+                android:onClick="AddLeader"
+                android:minHeight="0dp"
+                android:height="@dimen/button_height"
+                android:id="@+id/addLeaderButton"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/table_layout_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_view_background"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="3dp"
+                android:textSize="@dimen/normal_text_height"
+                android:fontFamily="@font/barlow_semi_bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/admin_list"
+                android:id="@+id/adminListLabel"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminListTable"
+                android:stretchColumns="0"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="3dp"
+                android:divider="@color/colorPrimary"
+                android:dividerPadding="@dimen/normal_divider_height"
+                android:showDividers="middle"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_text_height"
+                android:fontFamily="@font/barlow_regular"
+                android:textColor="@color/colorBlack"
+                android:hint="@string/index"
+                android:layout_toStartOf="@+id/addAdminButton"
+                android:id="@+id/addAdminEditText"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:textSize="@dimen/normal_text_height"
+                android:fontFamily="@font/barlow_bold"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:paddingHorizontal="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/add_admin"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/addAdminEditText"
+                android:onClick="AddAdmin"
+                android:minHeight="0dp"
+                android:height="@dimen/button_height"
+                android:id="@+id/addAdminButton"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"
+            android:textSize="@dimen/normal_text_height"
+            android:fontFamily="@font/barlow_bold"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:paddingHorizontal="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/start_new_semester"
+            android:minHeight="0dp"
+            android:height="@dimen/button_height"
+            android:onClick="StartNewSemester"
+            android:id="@+id/startNewSemesterButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

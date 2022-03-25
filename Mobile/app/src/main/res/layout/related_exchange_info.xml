@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/white_element_content_background">
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subjectNameTextView"
+        android:fontFamily="@font/barlow_bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normal_text_height" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/white_element_content_background"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="20dp"
+                android:textSize="@dimen/normal_text_height"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/barlow_bold"
+                android:background="@drawable/text_view_background"
+                android:id="@+id/groupFromInfoTextView"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_arrow_right_alt_black_18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="20dp"
+                android:textSize="@dimen/normal_text_height"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/barlow_bold"
+                android:background="@drawable/text_view_background"
+                android:id="@+id/groupToInfoTextView"/>
+
+            <Button
+                android:background="@drawable/red_button_background"
+                android:layout_gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:fontFamily="@font/barlow_bold"
+                android:textSize="@dimen/normal_text_height"
+                android:layout_marginVertical="5dp"
+                android:minHeight="0dp"
+                android:height="@dimen/button_height"
+                android:id="@+id/removeRelationButton"/>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
